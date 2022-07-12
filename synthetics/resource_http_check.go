@@ -118,7 +118,7 @@ func resourceHttpCheck() *schema.Resource {
 									},
 									"id": {
 										Type:     schema.TypeInt,
-										Computed: true,
+										Computed: false,
 										Optional: true,
 									},
 								},
